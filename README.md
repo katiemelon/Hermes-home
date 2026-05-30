@@ -4,7 +4,6 @@
 
 Run a capable, private AI assistant that manages your family's daily life — from morning briefings to meal planning to school reminders — all from your own server.
 
-Adapted from Claire Vo's Tradclaw but for hermes
 > Maintained by [Katie](https://github.com/katie) · Built for real families, not just tech people.
 
 ---
@@ -45,7 +44,7 @@ Follow the [setup guide](https://hermes-agent.nousresearch.com) first.
 Open a chat with Hermes (or Claude) and paste:
 
 ```
-Read the hermes-home scaffold at https://github.com/YOUR_USERNAME/hermes-home and set up my household workspace. Start with hermes-home/BOOTSTRAP.md — follow the read order, interview me, recommend modules, and generate my workspace/ files.
+Read the hermes-home scaffold at https://github.com/katiemelon/hermes-home and set up my household workspace. Start with hermes-home/BOOTSTRAP.md — follow the read order, interview me, recommend modules, and generate my workspace/ files.
 ```
 
 ### Step 3 — Copy your workspace files
