@@ -4,6 +4,7 @@
 
 Run a capable, private AI assistant that manages your family's daily life — from morning briefings to meal planning to school reminders — all from your own server.
 
+Adapted from Claire Vo's Tradclaw but for hermes
 > Maintained by [Katie](https://github.com/katie) · Built for real families, not just tech people.
 
 ---
