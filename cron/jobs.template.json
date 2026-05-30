@@ -1,0 +1,35 @@
+[
+  {
+    "_note": "These are EXAMPLE shapes only. Do not copy IDs, schedules, or timezones as production config. Use these as inspiration for the kinds of jobs available.",
+    "id": "morning-briefing-example",
+    "name": "Morning Briefing",
+    "schedule": "0 7 * * 1-5",
+    "timezone": "YOUR_TIMEZONE",
+    "goal": "Send the user their morning briefing — today's weather, calendar events, and top tasks.",
+    "prompt": "Good morning! Here's your briefing for today: [weather summary], [calendar events for today], [top 3 tasks]. Anything urgent to flag?"
+  },
+  {
+    "id": "meal-planning-example",
+    "name": "Weekly Meal Planning",
+    "schedule": "0 18 * * 0",
+    "timezone": "YOUR_TIMEZONE",
+    "goal": "Prompt the user to plan meals for the upcoming week.",
+    "prompt": "It's Sunday evening — time to think about this week's meals. Want to plan them now? I have your preferences ready."
+  },
+  {
+    "id": "weekly-summary-example",
+    "name": "Weekly Summary",
+    "schedule": "30 16 * * 5",
+    "timezone": "YOUR_TIMEZONE",
+    "goal": "Send an end-of-week review covering tasks done, tasks outstanding, and next week preview.",
+    "prompt": "Here's your week in review: [tasks completed], [tasks outstanding], [upcoming next week]. Anything you want to capture before the weekend?"
+  },
+  {
+    "id": "school-check-example",
+    "name": "School Event Check",
+    "schedule": "0 8 * * 1",
+    "timezone": "YOUR_TIMEZONE",
+    "goal": "Check for school events in the next 7 days and flag anything that needs action.",
+    "prompt": "Checking the school calendar for the week ahead... [list events if any, or 'nothing unusual this week']."
+  }
+]
