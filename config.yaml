@@ -1,0 +1,12 @@
+model: gpt-5.4
+temperature: 0.7
+max_tokens: 4096
+
+# Household agent defaults
+agent:
+  proactive: true          # Hermes sends messages without being asked
+  ask_before_acting: true  # Confirm before sending emails or making changes
+  quiet_hours:
+    start: "21:00"
+    end: "07:00"
+    timezone: auto         # Detected from your server location

@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "gmail": {
+      "type": "gmail",
+      "enabled": false,
+      "description": "Read, draft, and send emails on your behalf. Enable this during setup if you want email integration.",
+      "requires": ["GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET"]
+    },
+    "google-calendar": {
+      "type": "google-calendar",
+      "enabled": false,
+      "description": "Read your calendar for morning briefings and create/update events. Enable this during setup if you use Google Calendar.",
+      "requires": ["GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET"]
+    }
+  },
+  "note": "MCP servers are disabled by default. The bootstrap interview will guide you through enabling the ones that are right for your household."
+}

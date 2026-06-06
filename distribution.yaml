@@ -1,0 +1,37 @@
+name: hermes-home
+version: 1.0.0
+description: >
+  A household management agent for busy parents — handles family schedules,
+  proactive reminders, meal planning, email drafting, and weekly summaries.
+  Includes a guided bootstrap interview that personalises everything to your
+  household. No technical setup required beyond installation.
+author: katiemelon
+license: MIT
+hermes_requires: ">=0.15"
+
+# API keys the installer will need
+env_requires:
+  - name: OPENAI_API_KEY
+    required: true
+    description: >
+      Your OpenAI API key from platform.openai.com. Used as the AI brain
+      for all household tasks.
+
+  - name: GOOGLE_CLIENT_ID
+    required: false
+    description: >
+      Google OAuth client ID. Required if you want Gmail and Google Calendar
+      integration. See workspace/TOOLS.md for setup instructions.
+
+  - name: GOOGLE_CLIENT_SECRET
+    required: false
+    description: >
+      Google OAuth client secret. Required alongside GOOGLE_CLIENT_ID for
+      Gmail and Google Calendar integration.
+
+# Getting started — point installers to the bootstrap interview
+setup:
+  instructions: >
+    After installing, start the bootstrap interview by messaging your Hermes
+    agent with the prompt in hermes-home/BOOTSTRAP.md. It will walk you
+    through personalising everything to your household — no files to edit manually.
